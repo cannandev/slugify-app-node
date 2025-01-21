@@ -2,7 +2,11 @@
 
 This is a simple Node.js application that prompts the user for a phrase, then uses the slugify package to return a hyphen (-) delimited string.
 
-It uses the `slugify` npm package. Read the [package documentation]([url](https://www.npmjs.com/package/slugify)).
+## Dependencies
+
+This app uses the `slugify` npm package. Read the [package documentation](https://www.npmjs.com/package/slugify).
+
+It also uses the `readline` package. You don't have to install it since it is not an external Node.js package. It's a built-in module that comes with Node.js. It provides an interface for reading input from a readable stream (like the command line) and writing output to a writable stream (such as `stdout`). Read more about the `readline` module at [nodejs.org](https://nodejs.org/api/readline.html#readline). 
 
 ## Getting started
 
@@ -35,4 +39,4 @@ Make sure the desintation matches where you cloned the repository.
 
 Open a new shell session and type in `slugify` at the command prompt. Now you can use this application no matter which directory you're in. 
 
-Happy slugging!
+Happy slugging! 🖤
